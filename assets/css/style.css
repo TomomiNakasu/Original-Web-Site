@@ -54,6 +54,19 @@
     background-color: gray;
 }
 
+.menu-contents {
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-contents > li {
+    border: 1px solid black;
+    text-align: center;
+}
+
+
 /* トップの画像部分 */
 #s1 {
     display: flex;
@@ -69,6 +82,16 @@
     position: absolute;
 }
 
+/* ギャラリー */
+#s2 {
+    border: 1px solid black;
+}
+
+/* ダイアリー */
+#s3 {
+    border: 1px solid black;
+}
+
 
 /* アクセスとMOREINFO */
 #accessinfo {
@@ -76,12 +99,6 @@
     border: 1px solid black;
 }
 
-.title {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 
 #s4 {
     display: flex;
@@ -117,12 +134,6 @@ footer > ul {
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
-}
-
-.link {
-    text-decoration: none;
-    padding: 20px;
-    font-size: 20px;
 }
 
 footer > div {
