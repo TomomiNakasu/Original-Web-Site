@@ -26,7 +26,7 @@
         </div>
         <div class="head-right">
             <div class="contact-btn">
-                <span>CONTACT</span>
+                <a href="#addcont"><span>CONTACT</span></a>
             </div>
             <div class="menu-btn">
                 <span></span><span>MENU</span><span></span>
@@ -34,28 +34,29 @@
             <nav class="menu-contents">
                 <div class="sidebar">
                     <ul>
-                        <li>ABOUT US</li>
-                        <li>PRODUCT GALLERY</li>
-                        <li>NEWS & DIARY</li>
+                        <li><a href="#aboutus" class="menu-link">ABOUT US</a></li>
+                        <li><a href="#progal" class="menu-link">PRODUCT GALLERY</a></li>
+                        <li><a href="#news" class="menu-link">NEWS & DIARY</a></li>
                         <li>新着NEWS</li>
-                        <li><i class="fa-regular fa-newspaper"></i><a href="">新着記事１</a></li>
-                        <li><i class="fa-regular fa-newspaper"></i><a href="">新着記事２</a></li>
-                        <li><i class="fa-regular fa-newspaper"></i><a href="">新着記事３</a></li>
-                        <li>ACCESS & MORE INFO</li>
+                        <li><i class="fa-regular fa-newspaper"></i><a href="" class="menu-link">新着記事１</a></li>
+                        <li><i class="fa-regular fa-newspaper"></i><a href="" class="menu-link">新着記事２</a></li>
+                        <li><i class="fa-regular fa-newspaper"></i><a href="" class="menu-link">新着記事３</a></li>
+                        <li><a href="#addcont" class="menu-link">ACCESS & MORE INFO</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-    <main class="main">
+    <main class="main" id="top">
         <section>
             <div class="shopname">
-                <p>昭和家</p>
+                <p>昭和家っ</p>
                 <p>ーあの時代の温もりをいまここにー</p>
             </div>
         </section>
+
         <section>
-            <h2 class="subtitle">ABOUT US</h2>
+            <h2 class="subtitle" id="aboutus">ABOUT US</h2>
                 <div class="aboutus">
                 <div class="message">
                     <p>こちらは昭和家電を中心とした骨董屋です。<br>
@@ -68,8 +69,8 @@
             </div>
         </section>
 
-        <section>
-            <h2 class="subtitle">PRODUCT GALLERY</h2>
+        <section id="no1">
+            <h2 class="subtitle" id="progal">PRODUCT GALLERY</h2>
             <ul class="slider-top">
                 <li><img src="/assets/img/item01.jpg" alt=""></li>
                 <li><img src="/assets/img/item02.jpg" alt=""></li>
@@ -98,11 +99,11 @@
                 <li><img src="/assets/img/item23.jpg" alt=""></li>
                 <li><img src="/assets/img/item24.jpg" alt=""></li>
             </ul>
-            <div class="pro-link"><a href="">MORE→</a></div>
+            <div class="pro-link"><a href="/gallery.html">MORE→</a></div>
         </section>
 
-        <section>
-            <h2 class="subtitle">NEWS & DIARY</h2>
+        <section id="no2">
+            <h2 class="subtitle" id="news">NEWS & DIARY</h2>
             <div class="tile-line">
                 <div class="tile">
                     <a href="">
@@ -136,35 +137,34 @@
                         <p>short description or expect</p>
                     </a>
                 </div>
-            </section>
-
-            </div>
-            
-
-        <section>
-            <h2 class="subtitle">ACCESS & MORE INFO</h2>
-            <div class="accessinfo">
-                <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.0375212805598!2d133.0031086!3d34.06855240000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35503a6910258443%3A0x9a04906efa49de6a!2z5pel5pys44CB44CSNzk0LTAwMTgg5oSb5aqb55yM5LuK5rK75biC5pys55S677yR5LiB55uu77yS4oiS77yV!5e0!3m2!1sja!2sph!4v1724243446999!5m2!1sja!2sph" width="600" height="450" style="border:2px solid gray;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="info">
-                    <div class="address">
-                        <h3>住所</h3>
-                        <p>〒794-0018 </p>
-                        <p>愛媛県今治市本町1-2-5</p>
-                    </div>
-                    <div class="contact">
-                        <h3>問い合わせ</h3>
-                        <p>TEL 0898-35-2457</p>  
-                        <p>FAX 0898-35-2458</p>
-                    </div>
-                </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="storename">
-            昭和家
+        <div class="footer-top">
+            <div class="footer-left">
+                <a href="#top"><img src="/assets/img/mainl-logo（透過）.png" alt=""></a>
+            </div>
+            <div class="footer-middle">
+                <h2>SITEMAP</h2>
+                <ul>
+                    <li><a href="#aboutus">ABOUT US</a></li>
+                    <li><a href="#progal">PRODUCT GALLERY</a></li>
+                    <li><a href="#news">NEWS & DIARY</a></li>
+                </ul>
+            </div>
+            <div class="footer-right" id="addcont">
+                <h2>ACCESS & MORE INFO</h2>
+                <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.0375212805598!2d133.0031086!3d34.06855240000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35503a6910258443%3A0x9a04906efa49de6a!2z5pel5pys44CB44CSNzk0LTAwMTgg5oSb5aqb55yM5LuK5rK75biC5pys55S677yR5LiB55uu77yS4oiS77yV!5e0!3m2!1sja!2sph!4v1724243446999!5m2!1sja!2sph" width="600" height="450" style="border:2px solid gray;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div class="info">
+                    <div class="address">
+                        <p>〒794-0018 </p>
+                        <p>愛媛県今治市本町1-2-5</p>
+                        <p id="target">TEL 0898-35-2457</p>  
+                        <p>FAX 0898-35-2458</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="brands">
             <i class="fa-brands fa-line"></i>
