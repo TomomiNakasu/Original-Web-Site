@@ -293,6 +293,7 @@
     background-size: 70px 100px;
     transition: none;
     margin: 0 10px;
+    padding-bottom: 0;
 }
 
 .slider-top {
